@@ -1,6 +1,1 @@
-.PHONY: run
-
-run:
-	go fmt ./...
-	go vet ./...
-	go run main.go < input.txt | tee output.txt
+../build.mk
